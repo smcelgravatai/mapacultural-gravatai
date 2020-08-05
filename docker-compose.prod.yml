@@ -29,8 +29,8 @@ services:
     links:
       - db
     environment:
-      - POSTGRES_PASSWORD=mapas
-      - POSTGRES_USER=mapas
+      - POSTGRES_PASSWORD=smcelm@p@5
+      - POSTGRES_USER=mapas_gravatai
       - POSTGRES_DB=mapas
 
 #      - APP_LCODE=pt_BR,es_ES # para selecao do idioma baseado no navegador
@@ -47,8 +47,8 @@ services:
     image: mdillon/postgis:10
     restart: unless-stopped
     environment:
-      - POSTGRES_PASSWORD=mapas
-      - POSTGRES_USER=mapas
+      - POSTGRES_PASSWORD=smcelm@p@5
+      - POSTGRES_USER=mapas_gravatai
       - POSTGRES_DB=mapas
       - POSTGRES_DB_TEST=mapasculturais_test
     ports:
